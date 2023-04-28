@@ -1,0 +1,13 @@
+@font-face {
+    font-family: spotify;
+    src: url(../Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: spotify-bold;
+    src: url(../Montserrat-Bold.ttf);
+}
+
+body{
+    margin: 0%;
+    font-family: spotify;
+}

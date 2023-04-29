@@ -16,7 +16,7 @@ export default function Navbar() {
           <div >|</div>
           <div className="items">
           <FontAwesomeIcon className="profile" icon={faCircleUser}/>
-          &nbsp;  Profile &nbsp; <FontAwesomeIcon icon={faAngleDown}/>
+          &nbsp; Profile &nbsp; <FontAwesomeIcon icon={faAngleDown}/>
           </div>
         </div>
       </div>

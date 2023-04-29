@@ -21,7 +21,6 @@
 }
 .footer_grid{
     grid-area: 1/2/2/3;
-    background-color: yellow;
 }
 .footer_handles{
     grid-area: 1/3/2/4;

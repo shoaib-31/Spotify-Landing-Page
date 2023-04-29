@@ -1,0 +1,22 @@
+.ready_box{
+    background:linear-gradient(to right, #f001aceb 0%, #5900be 100%);
+    height: 50vh;
+    font-size: 4rem;
+}
+.ready_bg{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/lets-play.svg) no-repeat scroll 33% 79%/90%;
+}
+.ready{
+    height: 7rem;
+    display: flex;
+    font-family: spotify-bold;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}

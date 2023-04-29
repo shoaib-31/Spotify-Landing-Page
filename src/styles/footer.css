@@ -1,0 +1,12 @@
+.footer{
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_content{
+    height: 80%;
+    width: 65%;
+    background-color: green;
+}

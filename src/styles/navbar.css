@@ -27,10 +27,13 @@
     align-items: center;
     font-size: 0.8rem;
 }
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .profile{
-    width: 2.5rem;
-    height: 2.5rem;
-    width: 3rem;
+    font-size: 2rem;
 }
 .items:hover{
     color: green;

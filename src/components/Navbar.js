@@ -1,6 +1,7 @@
 import "../styles/navbar.css";
 import logo from "../images/logo.png";
-import profile from "../images/profile.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleUser, faAngleDown} from "@fortawesome/free-solid-svg-icons";
 export default function Navbar() {
   return (
     <>
@@ -12,12 +13,10 @@ export default function Navbar() {
           <div className="items">Premium</div>
           <div className="items">Support</div>
           <div className="items">Download</div>
-          <div className="items">|</div>
+          <div >|</div>
           <div className="items">
-            <img className="profile" src={profile} alt="User" />
-          </div>
-          <div className="items" id="profile">
-            Profile
+          <FontAwesomeIcon className="profile" icon={faCircleUser}/>
+          &nbsp;  Profile &nbsp; <FontAwesomeIcon icon={faAngleDown}/>
           </div>
         </div>
       </div>

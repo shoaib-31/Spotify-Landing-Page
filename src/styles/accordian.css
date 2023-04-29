@@ -1,0 +1,47 @@
+.accordian{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accordian_menu{
+    margin: 10vh 0vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;width: 50%;
+}
+.accordian_text{
+    font-size: 2rem;
+    font-family: spotify-bold;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+.accordian_box{
+    height: 80%;
+    width: 100%;
+    font-family: spotify;
+    font-size: 1rem;
+}
+.accordian_title{
+    font-family: spotify-bold;
+    font-size: 0.9rem;
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.accordian_title:hover{
+    background-color: rgb(239, 237, 237);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.accordian_content{
+    padding: 0px 1rem;
+}
+.green{
+    color: rgb(1, 132, 1);
+    font-family: spotify-bold;
+}

@@ -13,8 +13,12 @@ export default function Navbar() {
           <div className="items">Support</div>
           <div className="items">Download</div>
           <div className="items">|</div>
-          <img className="profile" src={profile} alt="User" />
-          <div className="items" id="profile">Profile</div>
+          <div className="items">
+            <img className="profile" src={profile} alt="User" />
+          </div>
+          <div className="items" id="profile">
+            Profile
+          </div>
         </div>
       </div>
     </>

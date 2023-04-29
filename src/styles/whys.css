@@ -1,0 +1,47 @@
+.whys_main{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whys_card{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: spotify-bold;
+    font-size: 2rem;
+}
+.whys_icons{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon{
+    width: 7rem;
+    height: 7rem;
+}
+.icon_box{
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15rem;
+}
+.icon_bold{
+    font-family: spotify-bold;
+    font-size: 1rem;
+    text-align: center;
+    text-align: center;
+    text-align: center;
+}
+.icon_small{
+    text-align: center;
+    font-family: spotify;
+    font-size: 0.7rem;
+}

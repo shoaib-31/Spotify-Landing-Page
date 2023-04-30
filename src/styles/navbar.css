@@ -20,7 +20,7 @@
 }
 .right{
     height: 85%;
-    width: 30%;
+    width: 26rem;
     color: aliceblue;
     display: flex;
     justify-content: space-around;
@@ -31,11 +31,41 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0rem 1rem;
 }
 .profile{
     font-size: 2rem;
 }
 .items:hover{
+    color: rgb(48, 150, 48);
+    cursor: pointer;
+}
+.dropdown{
+    width: 6rem;
+    height: 2.5rem;
+    position: absolute;
+    margin-top: 8.5rem;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-family: spotify-bold;
+}
+.dropdown::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border: 15px solid white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    margin-bottom: 5.5rem;
+    margin-left: 4.4rem;
+}
+.hover_green:hover{
     color: rgb(48, 150, 48);
     cursor: pointer;
 }

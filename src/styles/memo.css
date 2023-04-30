@@ -17,30 +17,32 @@
 }
 .memo_phone{
     height: 90%;
-    width: 25%;
+    width: 21rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 .memo_content{
     height: 100%;
-    width: 35%;
+    width: 70%;
+    max-width: 33rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     color: white;
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-family: spotify-bold;
 }
 .content-text{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 40%;
+    height: auto;
 }
 .get-spotify{
-    height: 2.2rem;
-    width: 8rem;
+    height: auto;
+    width: 9rem;
+    padding: 15px;
     font-size: 0.7rem;
     font-family: spotify-bold;
     border-radius: 40px;

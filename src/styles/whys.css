@@ -1,5 +1,5 @@
 .whys_main{
-    height: 65vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +13,7 @@
     align-items: center;
     font-family: spotify-bold;
     font-size: 2rem;
+    margin: 3rem 0rem;
 }
 .whys_icons{
     width: 80%;

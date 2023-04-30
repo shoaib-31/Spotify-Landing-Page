@@ -36,6 +36,6 @@
     font-size: 2rem;
 }
 .items:hover{
-    color: green;
+    color: rgb(48, 150, 48);
     cursor: pointer;
 }

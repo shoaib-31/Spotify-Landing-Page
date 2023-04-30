@@ -41,13 +41,13 @@ export default function Footer() {
           </div>
           <div className="footer_handles">
             <div className="social">
-              <FontAwesomeIcon icon={faInstagram} />
+              <FontAwesomeIcon icon={faInstagram} />|
             </div>
             <div className="social">
-              <FontAwesomeIcon icon={faTwitter} />
+              <FontAwesomeIcon icon={faTwitter} />|
             </div>
             <div className="social">
-              <FontAwesomeIcon icon={faFacebook} />
+              <FontAwesomeIcon icon={faFacebook} />|
             </div>
           </div>
           <div className="footer_language">

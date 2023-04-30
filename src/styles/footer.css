@@ -1,5 +1,5 @@
 .footer{
-    height: 60vh;
+    height: auto;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -7,10 +7,12 @@
 }
 .footer_content{
     height: 80%;
+    margin: 3rem 1rem;
     width: 65%;
     display: grid;
     grid-template-rows: 80% 10% 10%;
     grid-template-columns: 18% 50% 32%;
+    grid-gap: 1rem;
 }
 .footer_logo{
     grid-area: 1/1/2/2;
@@ -53,7 +55,7 @@
     justify-content: flex-end;
 }
 .social{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 50%;
     height: 2rem;
     width: 2rem;

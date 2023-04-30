@@ -16,7 +16,7 @@ export default function memo() {
         </div>
         <div className="memo_content">
           <div className="content-text">
-            Play Millions of songs and contacts, for free.
+            Play millions of songs and podcasts, for free.
             <button className="get-spotify">GET SPOTIFY FREE</button>
           </div>
         </div>

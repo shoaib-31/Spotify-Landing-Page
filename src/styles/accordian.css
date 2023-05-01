@@ -9,7 +9,8 @@
     margin: 10vh 0vw;
     flex-direction: column;
     justify-content: center;
-    align-items: center;width: 50%;
+    align-items: center;
+    width: 50%;
 }
 .accordian_text{
     font-size: 2rem;
@@ -44,4 +45,10 @@
 .green{
     color: rgb(1, 132, 1);
     font-family: spotify-bold;
+}
+@media only screen and (max-width: 991px) {
+.accordian_menu{
+    width: 80%;
+}
+
 }

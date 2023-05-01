@@ -20,3 +20,13 @@
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width: 991px) {
+    .ready_box{
+        font-size: 3rem;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .ready_box{
+        font-size: 2rem;
+    }
+  }

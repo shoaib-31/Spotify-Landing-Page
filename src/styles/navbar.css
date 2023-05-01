@@ -69,3 +69,24 @@
     color: rgb(48, 150, 48);
     cursor: pointer;
 }
+@media only screen and (max-width: 991px) {
+    .logo {
+      width: 4rem;
+      height: 1.2rem;
+    } 
+    .main{
+        justify-content: space-between;
+    }
+    .left{
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right{
+        width: 8rem;
+        justify-content: space-evenly;
+        font-size: 1.6rem;
+    }
+    
+  }

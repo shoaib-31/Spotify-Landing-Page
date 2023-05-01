@@ -56,8 +56,8 @@
 .social{
     font-size: 1.2rem;
     border-radius: 50%;
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +76,7 @@
     justify-content: flex-end;
     font-size: 0.6rem;
     color: rgb(195, 193, 193);
+    width: 100%;
 }
 .footer_info{
     display: flex;
@@ -97,7 +98,41 @@
     align-items: center;
     justify-content: flex-end;
 }
+.hg{
+    padding: 1px;
+}
 .hg:hover{
     color: rgb(48, 159, 48);
     cursor: pointer;
 }
+@media only screen and (max-width: 991px) {
+    .footer_top {
+      flex-direction: column;
+    }
+    .social{
+        font-size: 1rem;
+    }
+    .footer_handles{
+        justify-content: flex-start;
+        margin: 4rem 0rem 1rem 0rem;
+    }
+    .f-info_left{
+        width: 65%;
+    }
+    
+  }
+@media only screen and (max-width: 767px) {
+    .footer_main{
+        flex-direction: column;
+    width: 100vw;
+    }
+    .footer_content{
+        width: 95vw;
+    }
+    .f-info_left{
+        flex-wrap: wrap;
+    }
+    .hg{
+        padding: 5px;
+    }
+  }

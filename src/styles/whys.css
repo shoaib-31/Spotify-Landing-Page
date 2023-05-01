@@ -1,48 +1,101 @@
-.whys_main{
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.whys_main {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.whys_card{
-    width: 80%;
-    height: 90%;
+.whys_card {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: spotify-bold;
+  font-size: 2rem;
+  margin: 3rem 0rem;
+}
+.whys_icons {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.icon {
+  width: 7rem;
+  height: 7rem;
+}
+.icon_box {
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 15rem;
+}
+.icon_bold {
+  font-family: spotify-bold;
+  font-size: 1rem;
+  text-align: center;
+}
+.icon_small {
+  text-align: center;
+  font-family: spotify;
+  font-size: 0.7rem;
+}
+@media only screen and (max-width: 991px) {
+  .whys_icons {
+    width: auto;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 1rem 0rem;
+  }
+  .icon {
+    width: 6rem;
+    height: 6rem;
+    margin: 0px 1rem;
+  }
+  .icon_sub-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icon_text {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: spotify-bold;
-    font-size: 2rem;
-    margin: 3rem 0rem;
+    width: auto;
+    height: 4rem;
+    justify-content: space-between;
+  }
+  .icon_bold {
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  .icon_small {
+    text-align: left;
+    font-size: 0.6rem;
+  }
 }
-.whys_icons{
-    width: 80%;
-    height: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.icon{
-    width: 7rem;
-    height: 7rem;
-}
-.icon_box{
-    width: 12rem;
-    display: flex;
+
+@media only screen and (max-width: 767px) {
+  .whys_icons {
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 15rem;
-}
-.icon_bold{
-    font-family: spotify-bold;
+    margin: 0px;
+  }
+  .icon_text{
+    height: 3rem;
+  }
+  .icon{
+    width: 20vw;
+    height: 20vw;
+  }
+  .icon_sub-box{
+    margin: 1rem 0rem;
+  }
+  .whys_card{
     font-size: 1rem;
-    text-align: center;
-    text-align: center;
-    text-align: center;
-}
-.icon_small{
-    text-align: center;
-    font-family: spotify;
-    font-size: 0.7rem;
+  }
 }

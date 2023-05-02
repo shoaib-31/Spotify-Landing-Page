@@ -88,5 +88,27 @@
         justify-content: space-evenly;
         font-size: 1.6rem;
     }
-    
+    #sidebar{
+        background-color: black;
+        width: 0rem;
+        height: 103vh;
+        right: 0;
+        top: 0;
+        position: absolute;
+        transition-timing-function: ease-in-out;
+        transition-duration: 300ms;
+    }
+    #Xmark{
+        color: white;
+        font-size: 2rem;
+        right: 2px;
+        margin: 1.5rem;
+        display: none;
+    }
+    .cross_box{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 3.5rem;
+    }
   }

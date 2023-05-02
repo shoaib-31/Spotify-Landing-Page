@@ -5,13 +5,15 @@ import {
   faCircleUser,
   faAngleDown,
   faAngleUp,
-  faBars
+  faBars,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
-import MediaQuery from 'react-responsive';
+import MediaQuery from "react-responsive";
 
 export default function Navbar() {
   const [Show, setShow] = useState(false);
+
   return (
     <>
       <MediaQuery minWidth={991}>
@@ -54,13 +56,31 @@ export default function Navbar() {
         </div>
       </MediaQuery>
       <MediaQuery maxWidth={991}>
+        <div id="sidebar">
+          <div className="cross_box">
+            <FontAwesomeIcon
+              id="Xmark"
+              onClick={() => {
+                document.getElementById("sidebar").style.width = "0rem";
+                document.getElementById("Xmark").style.display = "none";
+              }}
+              icon={faXmark}
+            />
+          </div>
+        </div>
         <div className="main">
           <div className="left">
-          <img src={logo} alt="logo" className="logo" />
+            <img src={logo} alt="logo" className="logo" />
           </div>
           <div className="right">
-          <FontAwesomeIcon className="profile" icon={faCircleUser} />
-          <FontAwesomeIcon icon={faBars} />
+            <FontAwesomeIcon className="profile" icon={faCircleUser} />
+            <FontAwesomeIcon
+              onClick={() => {
+                document.getElementById("sidebar").style.width = "25rem";
+                document.getElementById("Xmark").style.display = "block";
+              }}
+              icon={faBars}
+            />
           </div>
         </div>
       </MediaQuery>

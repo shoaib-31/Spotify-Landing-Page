@@ -7,9 +7,10 @@ import {
   faAngleUp,
   faBars,
   faXmark,
-  faMinus
+  faMinus,
 } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
+import { disableScroll , enableScroll } from "./scrolling";
 import MediaQuery from "react-responsive";
 
 export default function Navbar() {
@@ -57,8 +58,6 @@ export default function Navbar() {
         </div>
       </MediaQuery>
       <MediaQuery maxWidth={991}>
-
-
         <div id="sidebar">
           <div className="cross_box">
             <FontAwesomeIcon
@@ -66,26 +65,23 @@ export default function Navbar() {
               onClick={() => {
                 document.getElementById("sidebar").style.width = "0rem";
                 document.getElementById("Xmark").style.display = "none";
+                enableScroll();
               }}
               icon={faXmark}
             />
           </div>
-             <div className="items">Premium</div>
-            <div className="items">Support</div>
-            <div className="items">Download</div>
-            <div className="items"><FontAwesomeIcon icon={faMinus} /></div>
-            <div className="hover_green">
-              Account
-            </div>
-            <div className="hover_green">
-              Log out
-            </div>
-            <div className="logo-container">
-              <img className="logo2" src={logo} alt="logo" />
-            </div>
+          <div className="items">Premium</div>
+          <div className="items">Support</div>
+          <div className="items">Download</div>
+          <div className="items">
+            <FontAwesomeIcon icon={faMinus} />
+          </div>
+          <div className="hover_green">Account</div>
+          <div className="hover_green">Log out</div>
+          <div className="logo-container">
+            <img className="logo2" src={logo} alt="logo" />
+          </div>
         </div>
-
-
 
         <div className="main">
           <div className="left">
@@ -97,6 +93,7 @@ export default function Navbar() {
               onClick={() => {
                 document.getElementById("sidebar").style.width = "25rem";
                 document.getElementById("Xmark").style.display = "block";
+                disableScroll();
               }}
               icon={faBars}
             />
